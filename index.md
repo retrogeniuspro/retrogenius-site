@@ -1,5 +1,5 @@
 {% for post in site.posts %}
-## [{{ post.title }}]({{ post.url }})
+## [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
 <small>Published on {{ post.date | date: "%B %-d, %Y" }}</small>
 
 {{ post.excerpt }}
