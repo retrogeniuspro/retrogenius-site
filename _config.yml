@@ -1,5 +1,5 @@
-title: [RETROGENius]
-description: [Where yesterday's tech meets tomorrow's innovation]
+title: RETROGENius
+description: Where yesterday's tech meets tomorrow's innovation
 baseurl: "/site"
 url: "https://retrogeniuspro.github.io"
 permalink: /:year/:month/:day/:title/

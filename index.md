@@ -4,7 +4,7 @@
 
 {{ post.excerpt }}
 
-[Read more...]({{ post.url }})
+[Read more...]({{ post.url | prepend: site.baseurl }})
 
 ---
 
